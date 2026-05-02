@@ -54,7 +54,7 @@ Weather in July in Tallinn is generally warm with occasional rain. While prolong
 
 This highlights the importance of temporal scale: adverse conditions may occur during the month, but are unlikely to coincide with the exact event days.
 
-Nevertheless, statistical analysis shows that the **true probability of rain in July is still high**, as shown by the confidence interval, so the **use of canopies for guests of honor is very recommended**. However, canceling an event due to a lack of canopies is not recommended; umbrellas can be purchased as a last resort.
+Although statistical analysis shows that the **probability of rain in July is moderate**, **use of canopies for guests of honor is very recommended**. However, canceling an event due to a lack of canopies is not recommended; umbrellas can be purchased as a last resort.
 
 ## Possible next steps of analysis
 For a more accurate weather assessment/forecast, it's it might be useful to **study weather patterns**, as the movement of cold and wet atmospheric fronts depends on pressure, wind speed, and direction, and to **apply machine learning methods (RF, etc.) to forecast the weather**.
