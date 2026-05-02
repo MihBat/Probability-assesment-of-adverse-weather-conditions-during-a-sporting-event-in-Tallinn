@@ -39,12 +39,12 @@ Visualization
 - probability and 95% confidence interval (July 1–20, 2010–2024) `probabilities_with_ci.png`
 
 ## Results
-Event days (17-20 July):
+**Event days (17-20 July):**
 - Long rain (≥1 mm/h, ≥3h) during the event window is unlikely. Point estimate: 6.7% (1 year out of 15). 95% CI: [1.2%, 29.8%].
 - Strong wind (≥15 m/s, ≥3h) during the same four days is very common. Point estimate: 86.7% (13 years out of 15). 95% CI: [62.1%, 96.3%].
 - No simultaneous occurrence of long rain and strong wind was observed in the 17–20 July window over the 15‑year period. Probability 0.0% (95% CI: [0.0%, 20.4%]).
 
-Mid-summer (1-20 July):
+**Mid-summer (1-20 July):**
 - Long rain (≥1 mm/h, ≥3 h) during the 20‑day period is common. Point estimate: 73.3% (11 years out of 15). 95% CI: [48.0%, 89.1%].
 - Strong wind (≥15 m/s, ≥3 h) is almost guaranteed. Point estimate: 100% (15 years out of 15). 95% CI: [79.6%, 100%].
 - Simultaneous occurrence of long rain and strong wind was observed in 6 out of 15 years. Point estimate: 40.0%. 95% CI: [19.8%, 64.3%].
