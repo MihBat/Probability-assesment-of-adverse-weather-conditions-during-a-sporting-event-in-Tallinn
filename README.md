@@ -24,3 +24,37 @@ The following data were used for the statistical analysis:
 P. S. More methodogy description in `code/weather_cond_analysis.ipynb`
 
 ## Workflow
+Data proceccing 
+– loading packages: requests, `pandas`, `urllib3`, `matplotlib`, `numpy`, `statsmodels`, and possibly `certifi`
+- getting data: Open‑Meteo Archive API (Tallinn, July 1–20, 2010–2024, hourly).
+- data preparation/cleaning
+
+Analysis
+- defining weather conditions: Long rain (≥1 mm/h, ≥3 h), long and strong wind (≥15 m/s, ≥3 h), and their combination.
+- calculating probabilities: for each year (0/1) + 95% Wilson confidence intervals.
+- comparing two periods – Event window (July 17–20) vs. seasonal window (July 1–20).
+
+Visualization 
+- probability of adverse weather conditions `probability_comparison.png`
+- probability and 95% confidence interval (July 1–20, 2010–2024) `probabilities_with_ci.png`
+
+## Results
+Event days (17-20 July):
+- Long rain (≥1 mm/h, ≥3h) during the event window is unlikely. Point estimate: 6.7% (1 year out of 15). 95% CI: [1.2%, 29.8%].
+- Strong wind (≥15 m/s, ≥3h) during the same four days is very common. Point estimate: 86.7% (13 years out of 15). 95% CI: [62.1%, 96.3%].
+- No simultaneous occurrence of long rain and strong wind was observed in the 17–20 July window over the 15‑year period. Probability 0.0% (95% CI: [0.0%, 20.4%]).
+
+Mid-summer (1-20 July):
+- Long rain (≥1 mm/h, ≥3 h) during the 20‑day period is common. Point estimate: 73.3% (11 years out of 15). 95% CI: [48.0%, 89.1%].
+- Strong wind (≥15 m/s, ≥3 h) is almost guaranteed. Point estimate: 100% (15 years out of 15). 95% CI: [79.6%, 100%].
+- Simultaneous occurrence of long rain and strong wind was observed in 6 out of 15 years. Point estimate: 40.0%. 95% CI: [19.8%, 64.3%].
+
+## Conclusions
+Weather in July in Tallinn is generally warm with occasional rain. While prolonged rainfall events are relatively common over the broader period (July 1–20), their probability during the specific event dates (July 17–20) remains low (around 6–7%).
+
+This highlights the importance of temporal scale: adverse conditions may occur during the month, but are unlikely to coincide with the exact event days.
+
+Nevertheless, statistical analysis shows that the true probability of rain in July is still high, as shown by the confidence interval, so the use of canopies for guests of honor is very recomended. However, canceling an event due to a lack of canopies is not recommended; umbrellas can be purchased as a last resort.
+
+## Possible optinal analysis
+For a more accurate weather assessment/forecast, it's might be need to **study weather patterns**, as the movement of cold and wet atmospheric fronts depends on pressure, wind speed, and direction, and to **apply machine learning methods (RF, etc.) to forecast the weather**.
