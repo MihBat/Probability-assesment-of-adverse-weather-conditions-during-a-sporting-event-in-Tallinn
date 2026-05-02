@@ -14,7 +14,7 @@ The results of this analysis can be used to choose one of the following options:
 - purchasing protective equipment (e.g., umbrellas)
 - foregoing additional measures if the likelihood of precipitation is low.
 
-## Methodoogy
+## Methodology
 Short-term seven-day weather forecasts, which are more accurate, are typically used, but July is still two weeks away. Therefore, in addition to using short-term forecasts, it is proposed to use historical weather data analysis for July in Tallinn as an additional decision-making tool.
 
 The following data were used for the statistical analysis:
@@ -24,7 +24,7 @@ The following data were used for the statistical analysis:
 P. S. More methodogy description in `code/weather_cond_analysis.ipynb`
 
 ## Workflow
-Data proceccing 
+Data processing 
 - loading packages: requests, `pandas`, `urllib3`, `matplotlib`, `numpy`, `statsmodels`, and possibly `certifi`
 - getting data: Open‑Meteo Archive API (Tallinn, July 1–20, 2010–2024, hourly).
 - data preparation/cleaning
@@ -50,11 +50,11 @@ Visualization
 - Combined: Simultaneous occurrence of long rain and strong wind was observed in 6 out of 15 years. Point estimate: **40.0%**. 95% CI: [19.8%, 64.3%].
 
 ## Conclusions
-Weather in July in Tallinn is generally warm with occasional rain. While prolonged rainfall events are relatively common over the broader period (July 1–20), their probability during the specific event dates (July 17–20) remains low (around 6–7%).
+Weather in July in Tallinn is generally warm with occasional rain. While prolonged rainfall events are relatively common over the broader period (July 1–20), their probability during the specific event dates (July 17–20) remains low.
 
 This highlights the importance of temporal scale: adverse conditions may occur during the month, but are unlikely to coincide with the exact event days.
 
-Nevertheless, statistical analysis shows that the **true probability of rain in July is still high**, as shown by the confidence interval, so the **use of canopies for guests of honor is very recomended**. However, canceling an event due to a lack of canopies is not recommended; umbrellas can be purchased as a last resort.
+Nevertheless, statistical analysis shows that the **true probability of rain in July is still high**, as shown by the confidence interval, so the **use of canopies for guests of honor is very recommended**. However, canceling an event due to a lack of canopies is not recommended; umbrellas can be purchased as a last resort.
 
-## Possible optinal analysis
-For a more accurate weather assessment/forecast, it's might be need to **study weather patterns**, as the movement of cold and wet atmospheric fronts depends on pressure, wind speed, and direction, and to **apply machine learning methods (RF, etc.) to forecast the weather**.
+## Possible next steps of analysis
+For a more accurate weather assessment/forecast, it's it might be useful to **study weather patterns**, as the movement of cold and wet atmospheric fronts depends on pressure, wind speed, and direction, and to **apply machine learning methods (RF, etc.) to forecast the weather**.
