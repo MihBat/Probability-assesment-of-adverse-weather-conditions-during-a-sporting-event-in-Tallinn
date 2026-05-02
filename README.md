@@ -18,7 +18,7 @@ The results of this analysis can be used to choose one of the following options:
 Short-term seven-day weather forecasts, which are more accurate, are typically used, but July is still two weeks away. Therefore, in addition to using short-term forecasts, it is proposed to use historical weather data analysis for July in Tallinn as an additional decision-making tool.
 
 The following data were used for the statistical analysis:
-- Open Meteo archived weather data for Tallinn; from July 1 to 20, 2010-2024.
+- Open Meteo archived weather data for Tallinn; from July 1 to 20, 2010-2024 `data/tln_weather_july_2010_2024.csv`
 - The following parameters were selected from the archive: precipitation, wind speed, temperature, and atmospheric pressure.
 
 P. S. More methodogy description in `code/weather_cond_analysis.ipynb`
