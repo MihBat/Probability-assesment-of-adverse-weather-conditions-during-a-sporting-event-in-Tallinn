@@ -25,7 +25,7 @@ P. S. More methodogy description in `code/weather_cond_analysis.ipynb`
 
 ## Workflow
 Data proceccing 
-– loading packages: requests, `pandas`, `urllib3`, `matplotlib`, `numpy`, `statsmodels`, and possibly `certifi`
+- loading packages: requests, `pandas`, `urllib3`, `matplotlib`, `numpy`, `statsmodels`, and possibly `certifi`
 - getting data: Open‑Meteo Archive API (Tallinn, July 1–20, 2010–2024, hourly).
 - data preparation/cleaning
 
