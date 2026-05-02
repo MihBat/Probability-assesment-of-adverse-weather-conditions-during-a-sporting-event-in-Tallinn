@@ -65,3 +65,4 @@ For a more accurate weather assessment/forecast, it's it might be useful to **st
 2. Install required packages:
    ```bash
    pip install -r requirements.txt
+jupyter notebook code/weather_cond_analysis.ipynb
