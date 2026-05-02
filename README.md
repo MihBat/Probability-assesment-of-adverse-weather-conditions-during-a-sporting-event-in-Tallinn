@@ -58,3 +58,10 @@ Although statistical analysis shows that the **probability of rain in July is mo
 
 ## Possible next steps of analysis
 For a more accurate weather assessment/forecast, it's it might be useful to **study weather patterns**, as the movement of cold and wet atmospheric fronts depends on pressure, wind speed, and direction, and to **apply machine learning methods (RF, etc.) to forecast the weather**.
+
+## Run instructions
+
+1. Clone the repository or download as ZIP.
+2. Install required packages:
+   ```bash
+   pip install -r requirements.txt
