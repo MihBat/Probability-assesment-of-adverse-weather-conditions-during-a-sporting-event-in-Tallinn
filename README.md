@@ -1,5 +1,7 @@
 # Probability assessment of adverse weather conditions during a sporting event in Tallinn
 
+Name: Mihhail Batura
+
 ## Background
 Let's assume that the organizers of a track cycling event to be held in mid-July 2025 (17-20 of July) in Tallinn are planning the preparation of spectator infrastructure taking into account possible weather conditions. Typically, protective structures (such as rain shelters) are provided for mass events, but in this case, their installation was not funded by the race sponsors.
 
